@@ -1,0 +1,86 @@
+/* fix for FF giving body z-index 0 */
+h1 {
+  z-index:7;
+  position: relative;
+}
+
+/* Local */
+
+#edit { 
+  position:absolute;
+  right: 0;
+  top:0;
+}
+
+BODY {
+  font-family: Helvetica;
+  color: #550000;
+  background-color: #eeeeee;
+  width: 900px;
+}
+
+A {
+  color: #550000;
+}
+
+H1 {
+  margin-left: 15px;
+  letter-spacing: 5px;
+}
+
+H2 {
+  margin-left: 30px;
+  letter-spacing: 5px;
+}
+
+H3, P {
+  margin-left: 45px;
+}
+
+DIV.footer {
+  position: absolute;
+  bottom: 25px;
+  left: 125px;
+  text-align: center;
+}
+
+DIV.background { 
+  position:fixed;
+  top:-20px;
+  left:-50px;
+  z-index: 0;
+}
+
+DIV.content {
+  position: relative;
+  z-index: 6;
+}
+DIV.screen {
+  width: 175px;
+  height: 190px;
+  position: relative;
+  left: 53px;
+  top: -275px;
+  overflow: auto;
+  text-align: left;
+}
+
+DIV.sms {
+  margin-left: -40px;
+  font-size: 10pt;
+  color: black;
+}
+
+DIV.sms DIV.header {
+  padding-left: 1px;
+  text-align: center;
+  font-weight: bold;
+}
+
+DIV.sms DIV.body {
+  margin-bottom: 5px;
+}
+
+div.gallerytext P {
+  margin: 0px;
+}
